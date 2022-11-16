@@ -2,7 +2,7 @@ print("Hello, welcome to Lan's Coffe shop!!!!!!!!")
 
 name = input("What is your name?\n")
 
-if name == "Mark" or name == "Patricia" or name == "Loki":
+if name == "Mark" or name == "Mod" or name == "Loki":
   evil_status = input("Are you evil?\n")
   good_jobs = int(input("How many good jobs did you do today?\n"))
   if evil_status == "Yes" and good_jobs < 4:
